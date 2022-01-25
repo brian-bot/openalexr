@@ -1,0 +1,20 @@
+## IMPORTS FROM OTHER PACKAGES
+import(methods, RCurl)
+importFrom(dplyr, bind_rows)
+importFrom(RJSONIO, toJSON, fromJSON)
+importFrom(utils, browseURL)
+
+## EXPORT S3 FUNCTIONS
+export(
+openalexRestGET,
+setUserAgent
+)
+
+## EXPORT METHODS
+#exportMethods(
+#)
+
+
+## EXPORT CLASSES
+#exportClasses(
+#)

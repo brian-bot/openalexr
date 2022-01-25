@@ -1,0 +1,10 @@
+Package: openalexr
+Type: Package
+Title: OpenAlex
+Version: 0.1
+Date: 2022-01-25
+Author: Brian M. Bot
+Maintainer: Brian M. Bot <bot.brian@gmail.com>
+Imports: methods,utils,RCurl,RJSONIO,dplyr
+Description: Access to the OpenAlex API in R
+License: GPL
